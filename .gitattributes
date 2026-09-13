@@ -1,0 +1,9 @@
+# Exclude build artifacts
+# This file is used to override language statistics
+*.json linguist-detectable=false
+*.astro linguist-detectable
+*.svg text
+package-lock.json linguist-generated
+
+public/* linguist-vendored
+*.bat text eol=crlf
